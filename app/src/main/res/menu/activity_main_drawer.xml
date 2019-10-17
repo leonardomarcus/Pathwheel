@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_top" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@mipmap/ic_map"
+            android:title="Visão Geral" />
+        <item
+            android:id="@+id/nav_route"
+            android:icon="@mipmap/ic_route"
+            android:title="Rota" />
+        <item
+            android:id="@+id/nav_crowdsensing"
+            android:icon="@mipmap/ic_sensor"
+            android:title="Colaborar" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_sobre"
+            android:title="Sobre" />
+    </group>
+
+    <group android:id="@+id/menu_bottom" android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logoff"
+            android:icon="@mipmap/ic_exit"
+            android:title="Sair" />
+    </group>
+
+</menu>

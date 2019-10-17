@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="leonardomarcus.com.br.pathwheel.fragment.MappedRouteFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapaViewRotaMapeada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/imageView_mapped_route_legend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/route_legend" />
+
+</FrameLayout>

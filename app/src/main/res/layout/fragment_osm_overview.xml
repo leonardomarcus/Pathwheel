@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="leonardomarcus.com.br.pathwheel.fragment.OsmOverviewFragment">
+
+    <org.osmdroid.views.MapView android:id="@+id/mapOsm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/imageView_overview_legend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="15dp"
+
+        android:src="@mipmap/legendas1" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButtonMyLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/colorAccent"
+        app:fabSize="mini"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_menu_mylocation" />
+
+</RelativeLayout>

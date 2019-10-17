@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Pathwheel</string>
+    <string name="textview_data_ini_text">Origem</string>
+    <string name="textview_data_final">Destino</string>
+    <string name="textview_calculate_text">Calcular</string>
+
+    <string name="textview_about_info">Sistema de mapeamento colaborativo das condições das ruas para o público cadeirante. Desenvolvido para o mestrado em Sistemas e Computação da UNIFACS.</string>
+    <string name="textview_about_authors">Desenvolvido por Leonardo Costa.\nOrientado por Dr. Professor Jorge Campos.</string>
+
+    <string name="textview_comment_spot_type_text">Escrever um comentário:</string>
+    <string name="button_add_spot_text">Adicionar</string>
+
+    <string name="title_activity_login">Autenticação</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">E-mail inválido</string>
+    <string name="error_invalid_password">A senha deve ter 6 letras</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_sign_in_anonimo">Anônimo</string>
+    <string name="title_activity_main">Pathwheel</string>
+
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

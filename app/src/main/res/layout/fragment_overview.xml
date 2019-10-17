@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="leonardomarcus.com.br.pathwheel.fragment.OverviewFragment">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapaView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:padding="5dp"
+        android:id="@+id/imageView_overview_legend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/legendas1" />
+
+</FrameLayout>
